@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(103, 102, 129);
+  background: linear-gradient(0deg, $violetaOscuro 0%, $violetaClaro 100%);
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: calc(100% - 92px);
+}
+
+.d-block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+@import '../../variables';
+
+$btnWidth: 20px;
+$btnHeight: 7px;
+$lineHeight: 1px;
+$btnColor: $blanco;
+
+.burger-menu {
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  width: $btnWidth;
+  height: $btnHeight;
+  transition: all 0.25s ease-in-out;
+}
+
+.burger-menu .line1,
+.burger-menu .line2 {
+  content: '';
+  position: absolute;
+  height: $lineHeight;
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+  border-radius: 3px;
+}
+
+.burger-menu .line1 {
+  right: 0;
+  bottom: 0%;
+  width: 80%;
+}
+
+.burger-menu .line2 {
+  top: 0;
+}
+
+.menu-active {
+  transform: rotate(45deg);
+}
+
+.menu-active .line {
+  opacity: 0;
+}
+
+.menu-active.burger-menu .line1 {
+  transform: rotate(-90deg);
+  bottom: 43%;
+  width: 100%;
+}
+
+.menu-active.burger-menu .line2 {
+  top: 50%;
+  transform: translateY(-50%);
+}

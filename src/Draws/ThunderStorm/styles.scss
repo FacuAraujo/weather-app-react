@@ -1,0 +1,19 @@
+.nube-oscura-rayo {
+  z-index: 2;
+  position: relative;
+  right: 10%;
+  &:nth-child(2) {
+    position: absolute;
+    width: 150px;
+    right: -20%;
+    z-index: 1;
+  }
+}
+
+.rayo {
+  width: 70px;
+  position: absolute;
+  bottom: -30px;
+  left: 25%;
+  z-index: 1;
+}

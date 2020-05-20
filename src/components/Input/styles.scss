@@ -1,0 +1,73 @@
+@import '../../variables';
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 8%;
+  top: 10%;
+  animation: slideUp 0.5s ease;
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateY(-5px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.country-select {
+  background: none;
+  border: none;
+  outline: none;
+  color: $blanco;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 0.5px solid $gris;
+  padding-bottom: 5px;
+  width: 10em;
+
+  &::placeholder {
+    color: $gris;
+  }
+}
+
+.btn-country {
+  background: none;
+  border: none;
+  margin-left: 0.5em;
+  margin-top: -6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search.icon {
+  color: $gris;
+  position: relative;
+  margin-top: 2px;
+  margin-left: 3px;
+  width: 12px;
+  height: 12px;
+  border: solid 1px currentColor;
+  border-radius: 100%;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.search.icon:before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  height: 6px;
+  width: 1px;
+  background-color: currentColor;
+}

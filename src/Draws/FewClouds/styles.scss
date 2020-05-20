@@ -1,0 +1,25 @@
+.nube {
+  position: absolute;
+  bottom: 7%;
+  left: 4%;
+
+  &:nth-child(2) {
+    width: 70px;
+    top: 7%;
+    left: inherit;
+    right: 10px;
+  }
+}
+
+.nube--primera {
+  width: 70px;
+  top: 7%;
+  left: inherit;
+  right: 10px;
+}
+
+.nube--segunda {
+  width: 100px;
+  bottom: 7%;
+  left: 4%;
+}

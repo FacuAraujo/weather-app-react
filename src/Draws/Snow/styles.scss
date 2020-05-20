@@ -1,0 +1,20 @@
+.nube-nieve {
+  position: relative;
+  z-index: 2;
+}
+
+.nieve {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 120px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+
+  img {
+    width: 12px;
+  }
+}

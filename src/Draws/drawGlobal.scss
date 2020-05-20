@@ -1,0 +1,24 @@
+@import '../variables';
+
+.graficos {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 2em 0;
+  position: relative;
+}
+
+img {
+  width: 200px;
+}
+
+.resplandor {
+  animation: titilarLuz 2s ease infinite alternate;
+  @keyframes titilarLuz {
+    0% {
+      filter: drop-shadow(0 0 10px rgba($amarillo, 0.3));
+    }
+    100% {
+      filter: drop-shadow(0 0 30px rgba($amarillo, 0.5));
+    }
+  }
+}
