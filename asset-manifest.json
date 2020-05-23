@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/weather-app-react/static/css/main.9c284353.chunk.css",
+    "main.js": "/weather-app-react/static/js/main.700ee23e.chunk.js",
+    "main.js.map": "/weather-app-react/static/js/main.700ee23e.chunk.js.map",
+    "runtime-main.js": "/weather-app-react/static/js/runtime-main.5ba76ca4.js",
+    "runtime-main.js.map": "/weather-app-react/static/js/runtime-main.5ba76ca4.js.map",
+    "static/js/2.5fbc419f.chunk.js": "/weather-app-react/static/js/2.5fbc419f.chunk.js",
+    "static/js/2.5fbc419f.chunk.js.map": "/weather-app-react/static/js/2.5fbc419f.chunk.js.map",
+    "index.html": "/weather-app-react/index.html",
+    "precache-manifest.89f8ec21742fcb91d1c91ac74e916f73.js": "/weather-app-react/precache-manifest.89f8ec21742fcb91d1c91ac74e916f73.js",
+    "service-worker.js": "/weather-app-react/service-worker.js",
+    "static/css/main.9c284353.chunk.css.map": "/weather-app-react/static/css/main.9c284353.chunk.css.map",
+    "static/js/2.5fbc419f.chunk.js.LICENSE.txt": "/weather-app-react/static/js/2.5fbc419f.chunk.js.LICENSE.txt",
+    "static/media/fila1-lluvia.svg": "/weather-app-react/static/media/fila1-lluvia.b3996514.svg",
+    "static/media/fila1-niebla.svg": "/weather-app-react/static/media/fila1-niebla.4273246a.svg",
+    "static/media/fila1-nieve.svg": "/weather-app-react/static/media/fila1-nieve.1fa749fb.svg",
+    "static/media/fila2-lluvia.svg": "/weather-app-react/static/media/fila2-lluvia.84ad2b37.svg",
+    "static/media/fila2-niebla.svg": "/weather-app-react/static/media/fila2-niebla.0cd5ab1c.svg",
+    "static/media/fila2-nieve.svg": "/weather-app-react/static/media/fila2-nieve.8c116cb3.svg",
+    "static/media/fila3-lluvia.svg": "/weather-app-react/static/media/fila3-lluvia.3f67f662.svg",
+    "static/media/fila3-nieve.svg": "/weather-app-react/static/media/fila3-nieve.e360185e.svg",
+    "static/media/fila4-lluvia.svg": "/weather-app-react/static/media/fila4-lluvia.3231c0e9.svg",
+    "static/media/fila4-nieve.svg": "/weather-app-react/static/media/fila4-nieve.e9a1d164.svg",
+    "static/media/fila5-lluvia.svg": "/weather-app-react/static/media/fila5-lluvia.ed51290a.svg",
+    "static/media/fila5-nieve.svg": "/weather-app-react/static/media/fila5-nieve.2dd372b9.svg",
+    "static/media/luna.svg": "/weather-app-react/static/media/luna.58b75ca6.svg",
+    "static/media/nube-clara.svg": "/weather-app-react/static/media/nube-clara.2dc64c77.svg",
+    "static/media/nube-mas-oscura.svg": "/weather-app-react/static/media/nube-mas-oscura.87af4bde.svg",
+    "static/media/nube-negra.svg": "/weather-app-react/static/media/nube-negra.3840d36e.svg",
+    "static/media/nube-simple.svg": "/weather-app-react/static/media/nube-simple.e9b158ca.svg",
+    "static/media/rayo.svg": "/weather-app-react/static/media/rayo.a2d49ec7.svg",
+    "static/media/sol.svg": "/weather-app-react/static/media/sol.466f8026.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ba76ca4.js",
+    "static/js/2.5fbc419f.chunk.js",
+    "static/css/main.9c284353.chunk.css",
+    "static/js/main.700ee23e.chunk.js"
+  ]
+}
