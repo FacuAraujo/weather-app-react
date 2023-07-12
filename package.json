@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-spring": "^8.0.27"
   },
   "scripts": {
@@ -33,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.14.0"
+    "node-sass": "^9.0.0"
   }
 }
